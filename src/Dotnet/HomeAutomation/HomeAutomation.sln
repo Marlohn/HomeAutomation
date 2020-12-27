@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomation.Hangfire", "HomeAutomation.Hangfire\HomeAutomation.Hangfire.csproj", "{E049B69A-4878-4161-98FE-730AAF65E765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomation.Service", "HomeAutomation.Service\HomeAutomation.Service.csproj", "{1226BCB7-D728-4753-801A-D3B15899906D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomation.Service", "HomeAutomation.Service\HomeAutomation.Service.csproj", "{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{E049B69A-4878-4161-98FE-730AAF65E765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E049B69A-4878-4161-98FE-730AAF65E765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E049B69A-4878-4161-98FE-730AAF65E765}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1226BCB7-D728-4753-801A-D3B15899906D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1226BCB7-D728-4753-801A-D3B15899906D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1226BCB7-D728-4753-801A-D3B15899906D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1226BCB7-D728-4753-801A-D3B15899906D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
