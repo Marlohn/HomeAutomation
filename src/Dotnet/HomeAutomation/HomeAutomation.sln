@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomation.Hangfire", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomation.Service", "HomeAutomation.Service\HomeAutomation.Service.csproj", "{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeAutomation.API", "HomeAutomation.API\HomeAutomation.API.csproj", "{1513BAD0-9172-4D5E-9D74-0828FB71EA13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC3AB50-7966-4F70-8CD7-8429A82FE5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1513BAD0-9172-4D5E-9D74-0828FB71EA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1513BAD0-9172-4D5E-9D74-0828FB71EA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1513BAD0-9172-4D5E-9D74-0828FB71EA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1513BAD0-9172-4D5E-9D74-0828FB71EA13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
