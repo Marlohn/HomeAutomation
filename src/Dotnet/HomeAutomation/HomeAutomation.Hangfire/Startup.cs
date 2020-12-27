@@ -1,3 +1,4 @@
+using Hangfire;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +17,8 @@ namespace HomeAutomation.Hangfire
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHangfire(x => x.UseSqlServerStorage("Server=10.1.1.117;Database=Automation;User Id=sa;Password=password;"));
+            services.AddHangfireServer();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -28,13 +31,18 @@ namespace HomeAutomation.Hangfire
 
             app.UseRouting();
 
-            app.UseEndpoints(endpoints =>
+            //Redirect to hangfire homepage
+            app.Use(async (context, next) =>
             {
-                endpoints.MapGet("/", async context =>
+                if (context.Request.Path == "/")
                 {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                    context.Response.Redirect("/hangfire");
+                    return;
+                }
+                await next();
             });
+
+            app.UseHangfireDashboard();
         }
     }
 }
